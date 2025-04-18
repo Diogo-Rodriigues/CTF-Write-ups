@@ -19,9 +19,32 @@ As the message the site seems to hint crypt, I assumed it was a reference to the
 Making some http request with different headers, it’s easy to see that the cookie and the printed message are related to the User-Agent: because using User-Agent: A we get a sensibly shorter cookie.
 ![image](https://github.com/user-attachments/assets/5a7b3d8d-3ebf-44c9-920b-c436d24f48d7)
 
-
-
 If I try to change user=admin I get an error probably because that information is also encrypted at the start of the secure_cookie.
+![image](https://github.com/user-attachments/assets/553bb25d-07ab-462c-8518-9b8b42006bd1)
+
+User:
+![image](https://github.com/user-attachments/assets/34e618c3-c36c-4b5f-ad34-26e8e37c0f8c)
+
+Cookie:
+![image](https://github.com/user-attachments/assets/a84cd5c9-1510-4fc8-b108-71b265aa2d4a)
+
+PHP:
+![image](https://github.com/user-attachments/assets/88255d4f-20a0-4ab7-b1d7-9d4960e5e554)
+
+Key:
+![image](https://github.com/user-attachments/assets/60545c80-4d0c-4376-a00b-94b73e1a0872)
+
+Script em php:
+![image](https://github.com/user-attachments/assets/e5b2daa3-429a-4f82-872f-9042532ae2b7)
+
+
+Script a correr:
+![image](https://github.com/user-attachments/assets/7407509b-f39d-46fe-acf3-e456d7300c9a)
+
+Fim do script:
+![image](https://github.com/user-attachments/assets/0f5470fe-9d4b-4d96-94aa-dad0113e24f2)
+
+
 ### 
 ```python
 import os
